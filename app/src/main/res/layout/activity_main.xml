@@ -23,4 +23,22 @@
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="168dp" />
 
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="266dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="404dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
